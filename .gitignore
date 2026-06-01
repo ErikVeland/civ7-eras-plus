@@ -1,0 +1,5 @@
+.DS_Store
+Thumbs.db
+*.log
+steamcmd_logs/
+_downloaded-workshop-test/

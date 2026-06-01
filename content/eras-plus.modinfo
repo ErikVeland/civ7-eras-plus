@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="eras-plus" version="1" xmlns="ModInfo">
+  <Properties>
+    <Name>Eras+</Name>
+    <Description>Extended Age pacing for Civilization VII.</Description>
+    <Authors>ErikVeland</Authors>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <ShowInBrowser>1</ShowInBrowser>
+  </Properties>
+
+  <Dependencies>
+    <Mod id="base-standard" title="Standard Rules" />
+  </Dependencies>
+
+  <ActionCriteria>
+    <Criteria id="always">
+      <AlwaysMet></AlwaysMet>
+    </Criteria>
+    <Criteria id="antiquity-age-current">
+      <AgeInUse>AGE_ANTIQUITY</AgeInUse>
+    </Criteria>
+    <Criteria id="exploration-age-current">
+      <AgeInUse>AGE_EXPLORATION</AgeInUse>
+    </Criteria>
+    <Criteria id="modern-age-current">
+      <AgeInUse>AGE_MODERN</AgeInUse>
+    </Criteria>
+  </ActionCriteria>
+
+  <ActionGroups>
+    <ActionGroup id="eras-plus-shell-text" scope="shell" criteria="always">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateText>
+          <Item>text/en_us/ErasPlusText.xml</Item>
+          <Item>l10n/ErasPlusText.xml</Item>
+        </UpdateText>
+      </Actions>
+    </ActionGroup>
+
+    <ActionGroup id="eras-plus-game-text" scope="game" criteria="always">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateText>
+          <Item>text/en_us/ErasPlusText.xml</Item>
+          <Item>l10n/ErasPlusText.xml</Item>
+        </UpdateText>
+      </Actions>
+    </ActionGroup>
+
+    <ActionGroup id="eras-plus-antiquity" scope="game" criteria="antiquity-age-current">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-antiquity.sql</Item>
+        </UpdateDatabase>
+      </Actions>
+    </ActionGroup>
+
+    <ActionGroup id="eras-plus-exploration" scope="game" criteria="exploration-age-current">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-exploration.sql</Item>
+        </UpdateDatabase>
+      </Actions>
+    </ActionGroup>
+
+    <ActionGroup id="eras-plus-modern" scope="game" criteria="modern-age-current">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-modern.sql</Item>
+        </UpdateDatabase>
+      </Actions>
+    </ActionGroup>
+  </ActionGroups>
+</Mod>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <EnglishText>
+    <Row Tag="LOC_MOD_ERAS_PLUS_NAME">
+      <Text>Eras+</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION">
+      <Text>Extends Civ VII Ages with slower research, slower civic progress, softer Age pressure, modest growth pacing, stronger roads, and a small unit-spam tax while keeping production close to Standard.</Text>
+    </Row>
+  </EnglishText>
+</Database>

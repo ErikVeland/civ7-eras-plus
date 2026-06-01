@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <LocalizedText>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="zh_Hans_CN"><Text>Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="zh_Hans_CN"><Text>通过更慢的研究和市政进度、更柔和的时代压力、适度的成长节奏、更强的道路和小幅单位海量惩罚来延长 Civilization VII 的时代，同时让生产接近标准速度。</Text></Replace>
+
+    <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="zh_Hant_HK"><Text>Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="zh_Hant_HK"><Text>透過更慢的研究和市政進度、更柔和的時代壓力、適度的成長節奏、更強的道路和小幅單位海量懲罰來延長 Civilization VII 的時代，同時讓生產接近標準速度。</Text></Replace>
+
+    <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="ja_JP"><Text>Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="ja_JP"><Text>研究と社会制度の進行を遅くし、時代進行の圧力を抑え、成長ペース、道路、ユニット大量生産への小さな抑制を調整して、標準に近い生産速度のまま Civilization VII の時代を延長します。</Text></Replace>
+
+    <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="ko_KR"><Text>Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="ko_KR"><Text>연구와 사회 제도 진행을 늦추고, 시대 진행 압박을 완화하며, 성장 속도와 도로, 유닛 대량 생산 억제를 조정해 생산은 표준에 가깝게 유지하면서 Civilization VII의 시대를 늘립니다.</Text></Replace>
+
+    <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="de_DE"><Text>Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="de_DE"><Text>Verlängert die Zeitalter von Civilization VII mit langsamerer Forschung, langsameren Ausrichtungen, geringerem Zeitalterdruck, moderatem Wachstumstempo, stärkeren Straßen und einer kleinen Bremse gegen Einheitenspam, während die Produktion nahe Standard bleibt.</Text></Replace>
+
+    <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="es_ES"><Text>Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="es_ES"><Text>Amplía las eras de Civilization VII con investigación y principios más lentos, menor presión de avance de era, crecimiento más pausado, mejores carreteras y una pequeña penalización al exceso de unidades, manteniendo la producción cerca de Estándar.</Text></Replace>
+
+    <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="fr_FR"><Text>Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="fr_FR"><Text>Prolonge les âges de Civilization VII avec une recherche et des dogmes plus lents, une pression d'âge réduite, une croissance un peu ralentie, des routes renforcées et un léger frein à la production massive d'unités, tout en gardant la production proche du mode Standard.</Text></Replace>
+
+    <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="it_IT"><Text>Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="it_IT"><Text>Estende le Ere di Civilization VII con ricerca e civiche più lente, minore pressione sull'avanzamento dell'Era, crescita più moderata, strade migliori e un piccolo freno allo spam di unità, mantenendo la produzione vicina allo Standard.</Text></Replace>
+
+    <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="pl_PL"><Text>Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="pl_PL"><Text>Wydłuża epoki w Civilization VII dzięki wolniejszym badaniom i ustrojom, łagodniejszej presji postępu epoki, spokojniejszemu wzrostowi, lepszym drogom i niewielkiemu ograniczeniu masowej produkcji jednostek, przy produkcji zbliżonej do standardowej.</Text></Replace>
+
+    <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="pt_BR"><Text>Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="pt_BR"><Text>Estende as Eras de Civilization VII com pesquisa e cívicos mais lentos, menor pressão de avanço de Era, crescimento mais moderado, estradas melhores e uma pequena contenção contra excesso de unidades, mantendo a produção próxima do Padrão.</Text></Replace>
+
+    <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="ru_RU"><Text>Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="ru_RU"><Text>Продлевает эпохи Civilization VII: замедляет исследования и культурное развитие, снижает давление прогресса эпохи, немного замедляет рост, усиливает дороги и слегка ограничивает массовое производство юнитов, сохраняя производство близким к стандартному.</Text></Replace>
+  </LocalizedText>
+</Database>
