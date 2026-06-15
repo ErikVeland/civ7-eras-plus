@@ -5,5 +5,5 @@
 	"contentfolder"		"/Users/veland/SteamWorkshopUploads/ErasPlus/content"
 	"visibility"		"0"
 	"title"		"Eras+"
-	"changenote"		"New 'Custom (per-age)' pacing profile: set Antiquity, Exploration, and Modern length independently (Vanilla, Extended, Extended+, plus Modern Stretch), so you can mix a short early game with a long Modern age. Fully localized across 12 languages."
+	"changenote"		"Clarity pass for pacing presets: the in-game age tooltip now shows exact preset effects, including Balanced Extended+ as 1.50x tech/civic costs with Standard-style production. Workshop description now includes quick numeric pacing notes."
 }

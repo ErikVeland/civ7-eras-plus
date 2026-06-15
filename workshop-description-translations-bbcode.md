@@ -397,10 +397,18 @@ Choose vanilla pacing, a stronger extended curve, a lighter Epic-research preset
 [list]
 [*][b]Vanilla:[/b] leaves Age pacing unchanged by Eras+.
 [*][b]Balanced Extended:[/b] stronger extended pacing for single-player. Longer Ages, slower techs/civics, light unit-spam pressure, and faster roads.
-[*][b]Balanced Extended+:[/b] recommended default. Epic-style tech and civic costs while production, growth, maintenance, and victory projects stay close to Standard.
+[*][b]Balanced Extended+:[/b] recommended default. Tech and civic costs are 1.50x in every age, while production, growth, unit maintenance, and victory projects stay close to Standard.
 [*][b]MP Pace:[/b] shorter thresholds aimed at multiplayer games where Ages can last too long after players reach repeatable techs/civics.
 [*][b]Modern Stretch:[/b] leaves Antiquity and Exploration unchanged, then strongly raises Modern Age thresholds and Modern tech/civic costs.
 [*][b]Custom (per-age):[/b] Set the length of the Antiquity, Exploration, and Modern ages independently.
+[/list]
+
+[h2]Quick numbers[/h2]
+[list]
+[*][b]Balanced Extended+:[/b] 1.50x tech, 1.50x civics, Standard-style production.
+[*][b]Balanced Extended:[/b] stronger single-player curve: techs 1.75x / 2.05x / 2.50x and civics 1.90x / 2.20x / 2.65x by age.
+[*][b]MP Pace:[/b] lighter multiplayer curve: techs 1.35x / 1.50x / 1.75x and civics 1.45x / 1.60x / 1.85x by age.
+[*][b]Modern Stretch:[/b] Modern techs 3.25x, Modern civics 2.75x, Modern victory projects 1.60x.
 [/list]
 
 [h2]What presets can change[/h2]

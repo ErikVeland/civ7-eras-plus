@@ -13,11 +13,17 @@
     <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DESC" Language="en_US">
       <Text>Leaves Age pacing unchanged by Eras+. Useful for testing or standard matches.</Text>
     </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DETAIL" Language="en_US">
+      <Text>No Eras+ pacing changes are active.</Text>
+    </Row>
     <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED" Language="en_US">
       <Text>Balanced Extended</Text>
     </Row>
     <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DESC" Language="en_US">
       <Text>Clearly stronger extended pacing. Higher Age thresholds and noticeably heavier tech/civic costs than Balanced Extended+, while repeatable future techs/civics still add Age Progress so Ages do not stall.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DETAIL" Language="en_US">
+      <Text>Extended single-player curve: tech costs 1.75x / 2.05x / 2.50x by age; civic costs 1.90x / 2.20x / 2.65x; light growth, unit, road, and Modern project tuning.</Text>
     </Row>
     <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE" Language="en_US">
       <Text>MP Pace</Text>
@@ -25,11 +31,17 @@
     <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DESC" Language="en_US">
       <Text>Shorter thresholds for multiplayer pacing, aiming to avoid long repeatable tech/civic stretches while keeping research slower than Standard.</Text>
     </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DETAIL" Language="en_US">
+      <Text>Multiplayer curve: tech costs 1.35x / 1.50x / 1.75x by age; civic costs 1.45x / 1.60x / 1.85x; lighter Age thresholds than the extended presets.</Text>
+    </Row>
     <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH" Language="en_US">
       <Text>Modern Stretch</Text>
     </Row>
     <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DESC" Language="en_US">
       <Text>Leaves Antiquity and Exploration unchanged, then strongly raises Modern Age thresholds and Modern tech/civic costs so the final age has room to breathe.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DETAIL" Language="en_US">
+      <Text>Modern only: Antiquity and Exploration stay vanilla; Modern tech costs 3.25x, civics 2.75x, and victory projects 1.60x.</Text>
     </Row>
     <Row Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="en_US">
       <Text>Adds Age pacing presets for Civ VII: Vanilla, Balanced Extended, Balanced Extended+, Balanced Extended+ / Modern Stretch, MP Pace, or Modern Stretch.</Text>
@@ -43,11 +55,17 @@
     <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DESC" Language="en_US">
       <Text>Recommended default. Epic-style tech and civic costs with Standard-style production, growth, unit maintenance, and victory project costs. A lighter extended preset requested by players.</Text>
     </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DETAIL" Language="en_US">
+      <Text>Recommended default: tech and civic costs are 1.50x in every age, while production, growth, unit maintenance, and victory projects stay close to Standard.</Text>
+    </Row>
     <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH" Language="en_US">
       <Text>Balanced Extended+ / Modern Stretch</Text>
     </Row>
     <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DESC" Language="en_US">
       <Text>Balanced Extended+ pacing for Antiquity and Exploration, then strongly raises Modern Age thresholds and tech/civic costs so the final age has room to breathe.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DETAIL" Language="en_US">
+      <Text>Antiquity and Exploration use 1.50x tech/civic costs; Modern uses the Modern Stretch curve with 3.25x tech, 2.75x civics, and 1.60x victory projects.</Text>
     </Row>
     <Row Tag="LOC_MOD_ERAS_PLUS_READOUT" Language="en_US">
       <Text>Eras+ ({1_Profile}): {2_Current} / {3_Max} age progress</Text>
@@ -60,6 +78,9 @@
     </Row>
     <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DESC" Language="en_US">
       <Text>Set each age's length independently using the per-age options below.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DETAIL" Language="en_US">
+      <Text>Custom mode uses the per-age Antiquity, Exploration, and Modern length options selected during game setup.</Text>
     </Row>
     <Row Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_NAME" Language="en_US">
       <Text>Eras+ Antiquity Length</Text>

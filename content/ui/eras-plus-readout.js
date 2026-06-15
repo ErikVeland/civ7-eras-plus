@@ -12,6 +12,17 @@ const PROFILE_NAME_TAGS = Object.freeze({
   ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH: "LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH",
   ERAS_PLUS_PROFILE_MODERN_STRETCH: "LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH",
   ERAS_PLUS_PROFILE_MP_PACE: "LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE",
+  ERAS_PLUS_PROFILE_CUSTOM: "LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM",
+});
+
+const PROFILE_DETAIL_TAGS = Object.freeze({
+  ERAS_PLUS_PROFILE_VANILLA: "LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DETAIL",
+  ERAS_PLUS_PROFILE_BALANCED: "LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DETAIL",
+  ERAS_PLUS_PROFILE_BALANCED_PLUS: "LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DETAIL",
+  ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH: "LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DETAIL",
+  ERAS_PLUS_PROFILE_MODERN_STRETCH: "LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DETAIL",
+  ERAS_PLUS_PROFILE_MP_PACE: "LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DETAIL",
+  ERAS_PLUS_PROFILE_CUSTOM: "LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DETAIL",
 });
 
 function compose(tag, ...args) {
@@ -58,16 +69,18 @@ function buildReadoutLine() {
   }
 
   const profileName = compose(profileTag) || profileValue;
+  const detail = compose(PROFILE_DETAIL_TAGS[profileValue]) || "";
   const progress = getAgeProgress();
   if (!progress) {
-    return compose("LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY", profileName)
+    const profileOnly = compose("LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY", profileName)
       || `Eras+: ${profileName}`;
+    return detail ? `${profileOnly}[N]${detail}` : profileOnly;
   }
   const composed = compose("LOC_MOD_ERAS_PLUS_READOUT", profileName, progress.current, progress.max);
-  if (composed) {
-    return composed.includes("%") ? composed : `${composed} (${progress.percent}%)`;
-  }
-  return `Eras+: ${profileName} — ${progress.current} / ${progress.max} age progress (${progress.percent}%)`;
+  const progressLine = composed
+    ? (composed.includes("%") ? composed : `${composed} (${progress.percent}%)`)
+    : `Eras+: ${profileName} - ${progress.current} / ${progress.max} age progress (${progress.percent}%)`;
+  return detail ? `${progressLine}[N]${detail}` : progressLine;
 }
 
 function updateAgeRingTooltip() {
