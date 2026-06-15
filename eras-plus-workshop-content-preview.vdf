@@ -1,11 +1,10 @@
 "workshopitem"
 {
 	"appid"		"1295660"
-	"publishedfileid"		"3736818422"
+	"publishedfileid"		"3736792223"
 	"contentfolder"		"/Users/veland/SteamWorkshopUploads/ErasPlus/content"
 	"previewfile"		"/Users/veland/SteamWorkshopUploads/ErasPlus/content/art/eras-plus-preview-glint.gif"
 	"visibility"		"0"
 	"title"		"Eras+"
-	"description"		"Eras+ extends Civilization VII Ages within the limits of the current modding API.\n\nIt keeps production close to Standard while stretching the parts of the game that make Ages race by: tech and civic costs, Age point caps, milestone Age pressure, future tech/civic pressure, growth pacing, unit spam pressure, and road movement.\n\nCurrent tuning:\n[list]\n[*]Much higher Age point caps: 240 / 300 / 360 for abbreviated, standard, and long Ages.\n[*]Slower techs and civics, scaling upward from Antiquity to Modern.\n[*]Reduced Age pressure from milestones and repeatable future tech/civic completions.\n[*]Slightly slower settlement growth.\n[*]+10% production cost and +1 maintenance for trainable combat units.\n[*]Faster roads and railroads so longer Ages feel more mobile, not more static.\n[*]Modern victory projects are modestly slower without blocking victory routes.\n[/list]\n\nThis is a save-affecting gameplay mod. Start a new game for best results.\n\nInspired by Historic Speed / Extended Eras style pacing for earlier Civilization games.\n\nFully compatible with ToT 1.4.0+.\n\n[h2]Support[/h2]\n[url=https://www.buymeacoffee.com/generik]Buy me a coffee[/url]"
-	"changenote"		"Initial Eras+ release with extended Age timers, slower tech/civic pacing, softer Age pressure, growth pacing, unit-spam pressure, faster roads, localized mod text, and Workshop art."
+	"changenote"		"New 'Custom (per-age)' pacing profile: set Antiquity, Exploration, and Modern length independently (Vanilla, Extended, Extended+, plus Modern Stretch), so you can mix a short early game with a long Modern age. Fully localized across 12 languages."
 }

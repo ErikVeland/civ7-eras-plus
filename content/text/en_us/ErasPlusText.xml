@@ -1,11 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-  <EnglishText>
-    <Row Tag="LOC_MOD_ERAS_PLUS_NAME">
+  <LocalizedText>
+    <Row Tag="LOC_MOD_ERAS_PLUS_NAME" Language="en_US">
       <Text>Eras+</Text>
     </Row>
-    <Row Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION">
-      <Text>Extends Civ VII Ages with slower research, slower civic progress, softer Age pressure, modest growth pacing, stronger roads, and a small unit-spam tax while keeping production close to Standard.</Text>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_NAME" Language="en_US">
+      <Text>Eras+ Pacing</Text>
     </Row>
-  </EnglishText>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA" Language="en_US">
+      <Text>Vanilla</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DESC" Language="en_US">
+      <Text>Leaves Age pacing unchanged by Eras+. Useful for testing or standard matches.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED" Language="en_US">
+      <Text>Balanced Extended</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DESC" Language="en_US">
+      <Text>Clearly stronger extended pacing. Higher Age thresholds and noticeably heavier tech/civic costs than Balanced Extended+, while repeatable future techs/civics still add Age Progress so Ages do not stall.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE" Language="en_US">
+      <Text>MP Pace</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DESC" Language="en_US">
+      <Text>Shorter thresholds for multiplayer pacing, aiming to avoid long repeatable tech/civic stretches while keeping research slower than Standard.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH" Language="en_US">
+      <Text>Modern Stretch</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DESC" Language="en_US">
+      <Text>Leaves Antiquity and Exploration unchanged, then strongly raises Modern Age thresholds and Modern tech/civic costs so the final age has room to breathe.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="en_US">
+      <Text>Adds Age pacing presets for Civ VII: Vanilla, Balanced Extended, Balanced Extended+, Balanced Extended+ / Modern Stretch, MP Pace, or Modern Stretch.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_DESC" Language="en_US">
+      <Text>Choose how Eras+ should change Age thresholds, tech and civic costs, repeatable future-tech/civic Age Progress, and Modern pacing. Balanced Extended+ is the recommended default. Best selected before starting a new game.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS" Language="en_US">
+      <Text>Balanced Extended+</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DESC" Language="en_US">
+      <Text>Recommended default. Epic-style tech and civic costs with Standard-style production, growth, unit maintenance, and victory project costs. A lighter extended preset requested by players.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH" Language="en_US">
+      <Text>Balanced Extended+ / Modern Stretch</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DESC" Language="en_US">
+      <Text>Balanced Extended+ pacing for Antiquity and Exploration, then strongly raises Modern Age thresholds and tech/civic costs so the final age has room to breathe.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_READOUT" Language="en_US">
+      <Text>Eras+ ({1_Profile}): {2_Current} / {3_Max} age progress</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY" Language="en_US">
+      <Text>Eras+ pacing profile: {1_Profile}</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM" Language="en_US">
+      <Text>Custom (per-age)</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DESC" Language="en_US">
+      <Text>Set each age's length independently using the per-age options below.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_NAME" Language="en_US">
+      <Text>Eras+ Antiquity Length</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_DESC" Language="en_US">
+      <Text>Antiquity age length when Eras+ Pacing is set to Custom.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_NAME" Language="en_US">
+      <Text>Eras+ Exploration Length</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_DESC" Language="en_US">
+      <Text>Exploration age length when Eras+ Pacing is set to Custom.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_NAME" Language="en_US">
+      <Text>Eras+ Modern Length</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_DESC" Language="en_US">
+      <Text>Modern age length when Eras+ Pacing is set to Custom.</Text>
+    </Row>
+  </LocalizedText>
 </Database>

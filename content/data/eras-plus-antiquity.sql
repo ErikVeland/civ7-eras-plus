@@ -1,18 +1,18 @@
--- Eras+ extends Antiquity with the strongest stable database levers currently exposed by Civ VII.
+-- Balanced Extended: longer than Standard without stalling MP games deep into future techs.
 
 UPDATE AgeProgressions
-SET MaxPoints_Abbreviated = 240,
-    MaxPoints_Standard = 300,
-    MaxPoints_Long = 360
+SET MaxPoints_Abbreviated = 180,
+    MaxPoints_Standard = 225,
+    MaxPoints_Long = 280
 WHERE AgeProgressionType = 'AGE_PROGRESSION_ANTIQUITY_AGE_TIMER';
 
 UPDATE AgeProgressionEvents
 SET Points = CASE AgeProgressionEventType
-    WHEN 'AGE_PROGRESSION_PLAYER_MILESTONE_1' THEN 2
-    WHEN 'AGE_PROGRESSION_PLAYER_MILESTONE_2' THEN 3
-    WHEN 'AGE_PROGRESSION_PLAYER_MILESTONE_3' THEN 5
-    WHEN 'AGE_PROGRESSION_FUTURE_CIVIC' THEN 3
-    WHEN 'AGE_PROGRESSION_FUTURE_TECH' THEN 3
+    WHEN 'AGE_PROGRESSION_PLAYER_MILESTONE_1' THEN 3
+    WHEN 'AGE_PROGRESSION_PLAYER_MILESTONE_2' THEN 5
+    WHEN 'AGE_PROGRESSION_PLAYER_MILESTONE_3' THEN 8
+    WHEN 'AGE_PROGRESSION_FUTURE_CIVIC' THEN 6
+    WHEN 'AGE_PROGRESSION_FUTURE_TECH' THEN 6
     ELSE Points
   END
 WHERE AgeProgressionType = 'AGE_PROGRESSION_ANTIQUITY_AGE_TIMER';

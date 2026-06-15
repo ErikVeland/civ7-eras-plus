@@ -2,36 +2,301 @@
 <Database>
   <LocalizedText>
     <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="zh_Hans_CN"><Text>Eras+</Text></Replace>
-    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="zh_Hans_CN"><Text>通过更慢的研究和市政进度、更柔和的时代压力、适度的成长节奏、更强的道路和小幅单位海量惩罚来延长 Civilization VII 的时代，同时让生产接近标准速度。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_NAME" Language="zh_Hans_CN"><Text>Eras+ 节奏</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA" Language="zh_Hans_CN"><Text>Vanilla</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DESC" Language="zh_Hans_CN"><Text>不由 Eras+ 改变时代节奏。适合测试或标准对局。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED" Language="zh_Hans_CN"><Text>平衡延长</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DESC" Language="zh_Hans_CN"><Text>明显更强的延长节奏。时代阈值更高，科技/市政成本明显高于 Balanced Extended+；可重复未来科技/市政仍会增加时代进度，避免时代停滞。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE" Language="zh_Hans_CN"><Text>多人节奏</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DESC" Language="zh_Hans_CN"><Text>为多人游戏使用更短阈值，避免长时间重复科技/市政，同时仍让研究慢于标准。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH" Language="zh_Hans_CN"><Text>现代延长</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DESC" Language="zh_Hans_CN"><Text>不改变古典和探索时代，然后大幅提高现代时代阈值和现代科技/市政成本，让最终时代有更多游玩空间。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="zh_Hans_CN"><Text>为 Civ VII 添加时代节奏预设：Vanilla、平衡延长、平衡延长+、平衡延长+ / 现代延长、多人节奏或仅延长现代时代。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_DESC" Language="zh_Hans_CN"><Text>选择 Eras+ 如何改变时代阈值、科技和市政成本、重复未来科技/市政带来的时代进度，以及现代时代节奏。平衡延长+ 是推荐默认值。最好在开始新游戏前选择。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS" Language="zh_Hans_CN"><Text>平衡延长+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DESC" Language="zh_Hans_CN"><Text>推荐默认值。科技和市政成本接近 Epic 风格，同时保持生产、成长、单位维护和胜利项目成本接近标准。由玩家请求的较轻延长预设。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH" Language="zh_Hans_CN"><Text>平衡延长+ / 现代延长</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DESC" Language="zh_Hans_CN"><Text>古典和探索时代使用平衡延长+节奏，然后大幅提高现代时代阈值和现代科技/市政成本，让最终时代有更多游玩空间。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT" Language="zh_Hans_CN"><Text>Eras+（{1_Profile}）：时代进度 {2_Current} / {3_Max}</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY" Language="zh_Hans_CN"><Text>Eras+ 节奏配置：{1_Profile}</Text></Replace>
 
     <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="zh_Hant_HK"><Text>Eras+</Text></Replace>
-    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="zh_Hant_HK"><Text>透過更慢的研究和市政進度、更柔和的時代壓力、適度的成長節奏、更強的道路和小幅單位海量懲罰來延長 Civilization VII 的時代，同時讓生產接近標準速度。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_NAME" Language="zh_Hant_HK"><Text>Eras+ 節奏</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA" Language="zh_Hant_HK"><Text>Vanilla</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DESC" Language="zh_Hant_HK"><Text>不由 Eras+ 改變時代節奏。適合測試或標準對局。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED" Language="zh_Hant_HK"><Text>平衡延長</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DESC" Language="zh_Hant_HK"><Text>明顯更強的延長節奏。時代門檻更高，科技/市政成本明顯高於 Balanced Extended+；可重複未來科技/市政仍會增加時代進度，避免時代停滯。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE" Language="zh_Hant_HK"><Text>多人節奏</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DESC" Language="zh_Hant_HK"><Text>為多人遊戲使用較短門檻，避免長時間重複科技/市政，同時仍讓研究慢於標準。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH" Language="zh_Hant_HK"><Text>現代延長</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DESC" Language="zh_Hant_HK"><Text>不改變古典和探索時代，然後大幅提高現代時代門檻和現代科技/市政成本，讓最終時代有更多遊玩空間。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="zh_Hant_HK"><Text>為 Civ VII 加入時代節奏預設：Vanilla、平衡延長、平衡延長+、平衡延長+ / 現代延長、多人節奏或僅延長現代時代。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_DESC" Language="zh_Hant_HK"><Text>選擇 Eras+ 如何改變時代門檻、科技和市政成本、重複未來科技/市政帶來的時代進度，以及現代時代節奏。平衡延長+ 是建議預設值。最好在開始新遊戲前選擇。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS" Language="zh_Hant_HK"><Text>平衡延長+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DESC" Language="zh_Hant_HK"><Text>建議預設值。科技和市政成本接近 Epic 風格，同時保持生產、成長、單位維護和勝利專案成本接近標準。由玩家要求的較輕延長預設。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH" Language="zh_Hant_HK"><Text>平衡延長+ / 現代延長</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DESC" Language="zh_Hant_HK"><Text>古典和探索時代使用平衡延長+節奏，然後大幅提高現代時代門檻和現代科技/市政成本，讓最終時代有更多遊玩空間。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT" Language="zh_Hant_HK"><Text>Eras+（{1_Profile}）：時代進度 {2_Current} / {3_Max}</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY" Language="zh_Hant_HK"><Text>Eras+ 節奏設定：{1_Profile}</Text></Replace>
 
     <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="ja_JP"><Text>Eras+</Text></Replace>
-    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="ja_JP"><Text>研究と社会制度の進行を遅くし、時代進行の圧力を抑え、成長ペース、道路、ユニット大量生産への小さな抑制を調整して、標準に近い生産速度のまま Civilization VII の時代を延長します。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_NAME" Language="ja_JP"><Text>Eras+ ペース</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA" Language="ja_JP"><Text>Vanilla</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DESC" Language="ja_JP"><Text>Eras+ による時代ペース変更を行いません。テストや標準的な対戦向けです。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED" Language="ja_JP"><Text>バランス延長</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DESC" Language="ja_JP"><Text>明確に強い延長ペースです。Balanced Extended+ より時代しきい値が高く、技術/社会制度コストも明らかに重くなります。繰り返し可能な未来技術/社会制度は引き続き時代進行を加え、時代の停滞を防ぎます。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE" Language="ja_JP"><Text>MP ペース</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DESC" Language="ja_JP"><Text>マルチプレイ向けにしきい値を短くし、研究は標準より遅く保ちながら長い反復技術/社会制度期間を避けます。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH" Language="ja_JP"><Text>現代延長</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DESC" Language="ja_JP"><Text>古代と探検時代は変更せず、現代の時代しきい値と現代の技術/社会制度コストを大きく高め、最終時代に余裕を持たせます。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="ja_JP"><Text>Civ VII に時代ペースのプリセットを追加します。Vanilla、バランス延長、バランス延長+、バランス延長+ / 現代延長、MP向け、または現代のみ延長を選べます。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_DESC" Language="ja_JP"><Text>Eras+ が時代しきい値、技術と社会制度のコスト、反復未来技術/社会制度による時代進行、現代のペースをどう変えるか選びます。バランス延長+ が推奨既定値です。新規ゲーム開始前の選択が最適です。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS" Language="ja_JP"><Text>バランス延長+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DESC" Language="ja_JP"><Text>推奨既定値です。技術と社会制度のコストはEpic風にし、生産、成長、ユニット維持費、勝利プロジェクトのコストは標準寄りに保ちます。プレイヤー要望による軽めの延長プリセットです。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH" Language="ja_JP"><Text>バランス延長+ / 現代延長</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DESC" Language="ja_JP"><Text>古代と探検時代はバランス延長+のペースで進み、現代の時代しきい値と現代の技術/社会制度コストを大きく高め、最終時代に余裕を持たせます。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT" Language="ja_JP"><Text>Eras+（{1_Profile}）：時代の進行 {2_Current} / {3_Max}</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY" Language="ja_JP"><Text>Eras+ ペース設定：{1_Profile}</Text></Replace>
 
     <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="ko_KR"><Text>Eras+</Text></Replace>
-    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="ko_KR"><Text>연구와 사회 제도 진행을 늦추고, 시대 진행 압박을 완화하며, 성장 속도와 도로, 유닛 대량 생산 억제를 조정해 생산은 표준에 가깝게 유지하면서 Civilization VII의 시대를 늘립니다.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_NAME" Language="ko_KR"><Text>Eras+ 속도</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA" Language="ko_KR"><Text>Vanilla</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DESC" Language="ko_KR"><Text>Eras+가 시대 속도를 변경하지 않습니다. 테스트나 표준 경기에 유용합니다.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED" Language="ko_KR"><Text>균형 확장</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DESC" Language="ko_KR"><Text>확실히 더 강한 확장 속도입니다. Balanced Extended+보다 시대 한계치가 높고 기술/사회 제도 비용도 눈에 띄게 무겁습니다. 반복 가능한 미래 기술/사회 제도는 계속 시대 진행을 더해 시대가 멈추지 않게 합니다.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE" Language="ko_KR"><Text>MP 속도</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DESC" Language="ko_KR"><Text>멀티플레이 속도를 위해 더 짧은 한계치를 사용하여 긴 반복 기술/사회 제도 구간을 줄이면서 연구는 표준보다 느리게 유지합니다.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH" Language="ko_KR"><Text>현대 확장</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DESC" Language="ko_KR"><Text>고대와 탐험 시대는 그대로 두고 현대 시대 한계치와 현대 기술/사회 제도 비용을 크게 높여 마지막 시대를 더 오래 즐길 수 있게 합니다.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="ko_KR"><Text>Civ VII 시대 진행 프리셋을 추가합니다. Vanilla, 균형 확장, 균형 확장+, 균형 확장+ / 현대 확장, MP 속도, 현대 전용 확장을 선택할 수 있습니다.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_DESC" Language="ko_KR"><Text>Eras+가 시대 한계치, 기술과 사회 제도 비용, 반복 미래 기술/사회 제도의 시대 진행, 현대 시대 속도를 어떻게 바꿀지 선택합니다. 균형 확장+가 권장 기본값입니다. 새 게임 시작 전에 선택하는 것이 좋습니다.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS" Language="ko_KR"><Text>균형 확장+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DESC" Language="ko_KR"><Text>권장 기본값입니다. 기술과 사회 제도 비용은 Epic 스타일로 조정하고 생산, 성장, 유닛 유지비, 승리 프로젝트 비용은 표준에 가깝게 유지합니다. 플레이어 요청으로 추가된 가벼운 확장 프리셋입니다.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH" Language="ko_KR"><Text>균형 확장+ / 현대 확장</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DESC" Language="ko_KR"><Text>고대와 탐험 시대는 균형 확장+ 속도를 따르고, 현대 시대 한계치와 현대 기술/사회 제도 비용을 크게 높여 마지막 시대를 더 오래 즐길 수 있게 합니다.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT" Language="ko_KR"><Text>Eras+({1_Profile}): 시대 진행 {2_Current} / {3_Max}</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY" Language="ko_KR"><Text>Eras+ 페이스 프로필: {1_Profile}</Text></Replace>
 
     <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="de_DE"><Text>Eras+</Text></Replace>
-    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="de_DE"><Text>Verlängert die Zeitalter von Civilization VII mit langsamerer Forschung, langsameren Ausrichtungen, geringerem Zeitalterdruck, moderatem Wachstumstempo, stärkeren Straßen und einer kleinen Bremse gegen Einheitenspam, während die Produktion nahe Standard bleibt.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_NAME" Language="de_DE"><Text>Eras+ Tempo</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA" Language="de_DE"><Text>Vanilla</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DESC" Language="de_DE"><Text>Lässt das Zeitalter-Tempo durch Eras+ unverändert. Nützlich für Tests oder normale Partien.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED" Language="de_DE"><Text>Ausgewogen verlängert</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DESC" Language="de_DE"><Text>Deutlich stärker verlängertes Tempo. Höhere Zeitalter-Schwellen und merklich schwerere Technologie-/Ausrichtungskosten als Balanced Extended+, während wiederholbare Zukunftstechnologien/-ausrichtungen weiter Zeitalterfortschritt geben, damit Zeitalter nicht stocken.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE" Language="de_DE"><Text>MP-Tempo</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DESC" Language="de_DE"><Text>Kürzere Schwellen für Mehrspieler-Partien, um lange Wiederholungs-Technologie-/Ausrichtungsphasen zu vermeiden, während Forschung langsamer als Standard bleibt.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH" Language="de_DE"><Text>Moderne verlängern</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DESC" Language="de_DE"><Text>Lässt Antike und Erkundung unverändert und erhöht dann die Moderne-Schwellen sowie moderne Technologie-/Ausrichtungskosten deutlich, damit das letzte Zeitalter mehr Raum bekommt.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="de_DE"><Text>Fügt Civ VII Zeitalter-Tempo-Profile hinzu: Vanilla, ausgewogen verlängert, Ausgewogen verlängert+, Ausgewogen verlängert+ / Moderne verlängern, MP-Tempo oder nur Moderne verlängern.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_DESC" Language="de_DE"><Text>Wähle, wie Eras+ Zeitalter-Schwellen, Technologie- und Ausrichtungskosten, Zeitalterfortschritt durch wiederholbare Zukunftstechnologien/-Ausrichtungen und Moderne-Tempo verändert. Ausgewogen verlängert+ ist die empfohlene Voreinstellung. Am besten vor einem neuen Spiel wählen.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS" Language="de_DE"><Text>Ausgewogen verlängert+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DESC" Language="de_DE"><Text>Empfohlene Voreinstellung. Technologie- und Ausrichtungskosten im Epic-Stil, aber Produktion, Wachstum, Einheitenunterhalt und Siegprojektkosten bleiben nahe Standard. Ein leichteres verlängertes Profil auf Spielerwunsch.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH" Language="de_DE"><Text>Ausgewogen verlängert+ / Moderne verlängern</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DESC" Language="de_DE"><Text>Verwendet Ausgewogen verlängert+ Tempo für Antike und Erkundung, erhöht dann die Moderne-Schwellen sowie moderne Technologie-/Ausrichtungskosten deutlich, damit das letzte Zeitalter mehr Raum bekommt.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT" Language="de_DE"><Text>Eras+ ({1_Profile}): Zeitalterfortschritt {2_Current} / {3_Max}</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY" Language="de_DE"><Text>Eras+-Tempoprofil: {1_Profile}</Text></Replace>
 
     <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="es_ES"><Text>Eras+</Text></Replace>
-    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="es_ES"><Text>Amplía las eras de Civilization VII con investigación y principios más lentos, menor presión de avance de era, crecimiento más pausado, mejores carreteras y una pequeña penalización al exceso de unidades, manteniendo la producción cerca de Estándar.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_NAME" Language="es_ES"><Text>Ritmo de Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA" Language="es_ES"><Text>Vanilla</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DESC" Language="es_ES"><Text>Eras+ no cambia el ritmo de eras. Útil para pruebas o partidas estándar.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED" Language="es_ES"><Text>Ampliación equilibrada</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DESC" Language="es_ES"><Text>Ritmo ampliado claramente más fuerte. Umbrales de era más altos y costes de tecnologías/principios bastante más pesados que Balanced Extended+, mientras las tecnologías/principios futuros repetibles siguen dando Progreso de Era para evitar bloqueos.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE" Language="es_ES"><Text>Ritmo multijugador</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DESC" Language="es_ES"><Text>Umbrales más cortos para multijugador, pensado para evitar largos tramos de tecnologías/principios repetibles manteniendo la investigación más lenta que Estándar.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH" Language="es_ES"><Text>Ampliar Moderna</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DESC" Language="es_ES"><Text>Deja Antigüedad y Exploración sin cambios, y luego aumenta mucho los umbrales de la Edad Moderna y los costes de tecnología/principios modernos para dar más espacio a la era final.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="es_ES"><Text>Añade preajustes de ritmo de eras para Civ VII: Vanilla, ampliación equilibrada, ampliación equilibrada+, ampliación equilibrada+ / Moderna, ritmo multijugador o ampliación solo de la Edad Moderna.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_DESC" Language="es_ES"><Text>Elige cómo Eras+ cambia los umbrales de era, los costes de tecnologías y principios, el progreso de era por tecnologías/principios futuros repetibles y el ritmo moderno. Ampliación equilibrada+ es el valor predeterminado recomendado. Mejor antes de iniciar una partida nueva.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS" Language="es_ES"><Text>Ampliación equilibrada+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DESC" Language="es_ES"><Text>Valor predeterminado recomendado. Costes de tecnologías y principios al estilo Epic, con producción, crecimiento, mantenimiento de unidades y proyectos de victoria cerca de Estándar. Un preajuste ampliado más ligero pedido por jugadores.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH" Language="es_ES"><Text>Ampliación equilibrada+ / Moderna</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DESC" Language="es_ES"><Text>Usa el ritmo de Ampliación equilibrada+ para Antigüedad y Exploración, luego aumenta mucho los umbrales de la Edad Moderna y los costes de tecnología/principios modernos para dar más espacio a la era final.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT" Language="es_ES"><Text>Eras+ ({1_Profile}): progreso de la era {2_Current} / {3_Max}</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY" Language="es_ES"><Text>Perfil de ritmo de Eras+: {1_Profile}</Text></Replace>
 
     <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="fr_FR"><Text>Eras+</Text></Replace>
-    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="fr_FR"><Text>Prolonge les âges de Civilization VII avec une recherche et des dogmes plus lents, une pression d'âge réduite, une croissance un peu ralentie, des routes renforcées et un léger frein à la production massive d'unités, tout en gardant la production proche du mode Standard.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_NAME" Language="fr_FR"><Text>Rythme Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA" Language="fr_FR"><Text>Vanilla</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DESC" Language="fr_FR"><Text>Ne modifie pas le rythme des âges avec Eras+. Utile pour les tests ou les parties standard.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED" Language="fr_FR"><Text>Extension équilibrée</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DESC" Language="fr_FR"><Text>Rythme étendu nettement plus fort. Seuils d'âge plus hauts et coûts de technologies/dogmes visiblement plus lourds que Balanced Extended+, tandis que les technologies/dogmes futurs répétables ajoutent encore de la progression d'âge pour éviter le blocage.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE" Language="fr_FR"><Text>Rythme multijoueur</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DESC" Language="fr_FR"><Text>Seuils plus courts pour le multijoueur, afin d'éviter de longues phases de technologies/dogmes répétables tout en gardant une recherche plus lente que Standard.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH" Language="fr_FR"><Text>Extension moderne</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DESC" Language="fr_FR"><Text>Laisse Antiquité et Exploration inchangées, puis augmente fortement les seuils de l'âge moderne et les coûts de technologies/dogmes modernes pour donner plus d'espace au dernier âge.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="fr_FR"><Text>Ajoute des préréglages de rythme des âges pour Civ VII : Vanilla, extension équilibrée, extension équilibrée+, extension équilibrée+ / Moderne, rythme multijoueur ou extension de l'âge moderne seulement.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_DESC" Language="fr_FR"><Text>Choisissez comment Eras+ modifie les seuils d'âge, les coûts de technologies et dogmes, la progression d'âge des technologies/dogmes futurs répétables et le rythme moderne. Extension équilibrée+ est la valeur par défaut recommandée. À choisir de préférence avant une nouvelle partie.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS" Language="fr_FR"><Text>Extension équilibrée+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DESC" Language="fr_FR"><Text>Valeur par défaut recommandée. Coûts de technologies et dogmes façon Epic, avec production, croissance, entretien des unités et projets de victoire proches de Standard. Un préréglage étendu plus léger demandé par les joueurs.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH" Language="fr_FR"><Text>Extension équilibrée+ / Moderne</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DESC" Language="fr_FR"><Text>Utilise le rythme Extension équilibrée+ pour Antiquité et Exploration, puis augmente fortement les seuils de l'âge moderne et les coûts de technologies/dogmes modernes pour donner plus d'espace au dernier âge.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT" Language="fr_FR"><Text>Eras+ ({1_Profile}) : progression de l'âge {2_Current} / {3_Max}</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY" Language="fr_FR"><Text>Profil de rythme Eras+ : {1_Profile}</Text></Replace>
 
     <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="it_IT"><Text>Eras+</Text></Replace>
-    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="it_IT"><Text>Estende le Ere di Civilization VII con ricerca e civiche più lente, minore pressione sull'avanzamento dell'Era, crescita più moderata, strade migliori e un piccolo freno allo spam di unità, mantenendo la produzione vicina allo Standard.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_NAME" Language="it_IT"><Text>Ritmo Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA" Language="it_IT"><Text>Vanilla</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DESC" Language="it_IT"><Text>Lascia invariato il ritmo delle Ere da parte di Eras+. Utile per test o partite standard.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED" Language="it_IT"><Text>Estensione bilanciata</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DESC" Language="it_IT"><Text>Ritmo esteso chiaramente più forte. Soglie d'Era più alte e costi di tecnologie/civiche sensibilmente più pesanti rispetto a Balanced Extended+, mentre tecnologie/civiche future ripetibili aggiungono ancora progresso d'Era per evitare stalli.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE" Language="it_IT"><Text>Ritmo multigiocatore</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DESC" Language="it_IT"><Text>Soglie più brevi per il multigiocatore, per evitare lunghi tratti di tecnologie/civiche ripetibili mantenendo la ricerca più lenta dello Standard.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH" Language="it_IT"><Text>Estensione Moderna</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DESC" Language="it_IT"><Text>Lascia Antichità ed Esplorazione invariate, poi aumenta molto le soglie dell'Era Moderna e i costi di tecnologie/civiche moderne per dare più spazio all'era finale.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="it_IT"><Text>Aggiunge preset di ritmo delle Ere per Civ VII: Vanilla, estensione bilanciata, estensione bilanciata+, estensione bilanciata+ / Moderna, ritmo multigiocatore o estensione solo Moderna.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_DESC" Language="it_IT"><Text>Scegli come Eras+ modifica soglie d'Era, costi di tecnologie e civiche, progresso d'Era da tecnologie/civiche future ripetibili e ritmo moderno. Estensione bilanciata+ è il valore predefinito consigliato. Meglio scegliere prima di una nuova partita.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS" Language="it_IT"><Text>Estensione bilanciata+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DESC" Language="it_IT"><Text>Valore predefinito consigliato. Costi di tecnologie e civiche in stile Epic, con produzione, crescita, mantenimento unità e progetti vittoria vicini allo Standard. Un preset esteso più leggero richiesto dai giocatori.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH" Language="it_IT"><Text>Estensione bilanciata+ / Moderna</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DESC" Language="it_IT"><Text>Usa il ritmo dell'Estensione bilanciata+ per Antichità ed Esplorazione, poi aumenta molto le soglie dell'Era Moderna e i costi di tecnologie/civiche moderne per dare più spazio all'era finale.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT" Language="it_IT"><Text>Eras+ ({1_Profile}): progresso dell'era {2_Current} / {3_Max}</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY" Language="it_IT"><Text>Profilo di ritmo Eras+: {1_Profile}</Text></Replace>
 
     <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="pl_PL"><Text>Eras+</Text></Replace>
-    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="pl_PL"><Text>Wydłuża epoki w Civilization VII dzięki wolniejszym badaniom i ustrojom, łagodniejszej presji postępu epoki, spokojniejszemu wzrostowi, lepszym drogom i niewielkiemu ograniczeniu masowej produkcji jednostek, przy produkcji zbliżonej do standardowej.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_NAME" Language="pl_PL"><Text>Tempo Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA" Language="pl_PL"><Text>Vanilla</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DESC" Language="pl_PL"><Text>Nie zmienia tempa epok przez Eras+. Przydatne do testów lub standardowych rozgrywek.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED" Language="pl_PL"><Text>Zbalansowane wydłużenie</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DESC" Language="pl_PL"><Text>Wyraźnie mocniejsze wydłużone tempo. Wyższe progi epok i zauważalnie cięższe koszty technologii/ustrojów niż w Balanced Extended+, a powtarzalne przyszłe technologie/ustroje nadal dodają postęp epoki, aby uniknąć zastoju.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE" Language="pl_PL"><Text>Tempo MP</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DESC" Language="pl_PL"><Text>Krótsze progi dla gry wieloosobowej, aby unikać długich odcinków powtarzalnych technologii/ustrojów, zachowując badania wolniejsze niż Standard.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH" Language="pl_PL"><Text>Wydłużenie nowoczesności</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DESC" Language="pl_PL"><Text>Pozostawia Antyk i Eksplorację bez zmian, a potem mocno zwiększa progi epoki nowoczesnej oraz koszty nowoczesnych technologii/ustrojów, aby ostatnia epoka miała więcej miejsca.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="pl_PL"><Text>Dodaje profile tempa epok dla Civ VII: Vanilla, zbalansowane wydłużenie, zbalansowane wydłużenie+, zbalansowane wydłużenie+ / nowoczesność, tempo MP albo wydłużenie tylko epoki nowoczesnej.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_DESC" Language="pl_PL"><Text>Wybierz, jak Eras+ zmienia progi epok, koszty technologii i ustrojów, postęp epoki z powtarzalnych przyszłych technologii/ustrojów oraz tempo nowoczesności. Zbalansowane wydłużenie+ to zalecana wartość domyślna. Najlepiej wybrać przed nową rozgrywką.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS" Language="pl_PL"><Text>Zbalansowane wydłużenie+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DESC" Language="pl_PL"><Text>Zalecana wartość domyślna. Koszty technologii i ustrojów w stylu Epic, ale produkcja, wzrost, utrzymanie jednostek i koszty projektów zwycięstwa pozostają blisko Standard. Lżejszy profil wydłużenia dodany na prośbę graczy.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH" Language="pl_PL"><Text>Zbalansowane wydłużenie+ / Nowoczesność</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DESC" Language="pl_PL"><Text>Używa tempa Zbalansowanego wydłużenia+ dla Antyku i Eksploracji, a potem mocno zwiększa progi epoki nowoczesnej oraz koszty nowoczesnych technologii/ustrojów, aby ostatnia epoka miała więcej miejsca.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT" Language="pl_PL"><Text>Eras+ ({1_Profile}): postęp ery {2_Current} / {3_Max}</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY" Language="pl_PL"><Text>Profil tempa Eras+: {1_Profile}</Text></Replace>
 
     <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="pt_BR"><Text>Eras+</Text></Replace>
-    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="pt_BR"><Text>Estende as Eras de Civilization VII com pesquisa e cívicos mais lentos, menor pressão de avanço de Era, crescimento mais moderado, estradas melhores e uma pequena contenção contra excesso de unidades, mantendo a produção próxima do Padrão.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_NAME" Language="pt_BR"><Text>Ritmo do Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA" Language="pt_BR"><Text>Vanilla</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DESC" Language="pt_BR"><Text>Não altera o ritmo das Eras pelo Eras+. Útil para testes ou partidas padrão.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED" Language="pt_BR"><Text>Extensão equilibrada</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DESC" Language="pt_BR"><Text>Ritmo estendido claramente mais forte. Limites de Era mais altos e custos de tecnologias/cívicos visivelmente mais pesados que Balanced Extended+, enquanto tecnologias/cívicos futuros repetíveis ainda adicionam progresso de Era para evitar estagnação.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE" Language="pt_BR"><Text>Ritmo multijogador</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DESC" Language="pt_BR"><Text>Limites mais curtos para multijogador, visando evitar longos trechos de tecnologias/cívicos repetíveis enquanto mantém a pesquisa mais lenta que o Padrão.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH" Language="pt_BR"><Text>Extensão Moderna</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DESC" Language="pt_BR"><Text>Deixa Antiguidade e Exploração inalteradas, depois aumenta bastante os limites da Era Moderna e os custos de tecnologias/cívicos modernos para dar mais espaço à era final.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="pt_BR"><Text>Adiciona predefinições de ritmo das Eras para Civ VII: Vanilla, extensão equilibrada, extensão equilibrada+, extensão equilibrada+ / Moderna, ritmo multijogador ou extensão apenas da Era Moderna.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_DESC" Language="pt_BR"><Text>Escolha como Eras+ altera limites de Era, custos de tecnologias e cívicos, progresso de Era por tecnologias/cívicos futuros repetíveis e ritmo moderno. Extensão equilibrada+ é o padrão recomendado. Melhor escolher antes de uma nova partida.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS" Language="pt_BR"><Text>Extensão equilibrada+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DESC" Language="pt_BR"><Text>Padrão recomendado. Custos de tecnologias e cívicos em estilo Epic, com produção, crescimento, manutenção de unidades e projetos de vitória próximos do Padrão. Um preset estendido mais leve pedido pelos jogadores.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH" Language="pt_BR"><Text>Extensão equilibrada+ / Moderna</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DESC" Language="pt_BR"><Text>Usa o ritmo da Extensão equilibrada+ para Antiguidade e Exploração, depois aumenta bastante os limites da Era Moderna e os custos de tecnologias/cívicos modernos para dar mais espaço à era final.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT" Language="pt_BR"><Text>Eras+ ({1_Profile}): progresso da era {2_Current} / {3_Max}</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY" Language="pt_BR"><Text>Perfil de ritmo do Eras+: {1_Profile}</Text></Replace>
 
     <Replace Tag="LOC_MOD_ERAS_PLUS_NAME" Language="ru_RU"><Text>Eras+</Text></Replace>
-    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="ru_RU"><Text>Продлевает эпохи Civilization VII: замедляет исследования и культурное развитие, снижает давление прогресса эпохи, немного замедляет рост, усиливает дороги и слегка ограничивает массовое производство юнитов, сохраняя производство близким к стандартному.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_NAME" Language="ru_RU"><Text>Темп Eras+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA" Language="ru_RU"><Text>Vanilla</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_VANILLA_DESC" Language="ru_RU"><Text>Не меняет темп эпох через Eras+. Полезно для тестов или стандартных партий.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED" Language="ru_RU"><Text>Сбалансированное продление</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_DESC" Language="ru_RU"><Text>Заметно более сильное продленное темпо. Более высокие пороги эпох и ощутимо более тяжелая стоимость технологий/культур, чем в Balanced Extended+, при этом повторяемые будущие технологии/культуры всё ещё дают прогресс эпохи, чтобы она не застревала.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE" Language="ru_RU"><Text>Темп MP</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MP_PACE_DESC" Language="ru_RU"><Text>Более короткие пороги для сетевой игры, чтобы избежать долгих повторяемых технологий/культур, сохраняя исследования медленнее стандарта.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH" Language="ru_RU"><Text>Продлить Современность</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_MODERN_STRETCH_DESC" Language="ru_RU"><Text>Оставляет Античность и Исследование без изменений, затем заметно повышает пороги Современности и стоимость современных технологий/культур, чтобы последней эпохе хватало места.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_DESCRIPTION" Language="ru_RU"><Text>Добавляет профили темпа эпох для Civ VII: Vanilla, сбалансированное продление, сбалансированное продление+, сбалансированное продление+ / Современность, темп для сетевой игры или продление только Современности.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_DESC" Language="ru_RU"><Text>Выберите, как Eras+ меняет пороги эпох, стоимость технологий и культур, прогресс эпохи от повторяемых будущих технологий/культур и темп Современности. Сбалансированное продление+ является рекомендуемым значением по умолчанию. Лучше выбрать до новой партии.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS" Language="ru_RU"><Text>Сбалансированное продление+</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_DESC" Language="ru_RU"><Text>Рекомендуемое значение по умолчанию. Стоимость технологий и культур в стиле Epic, но производство, рост, содержание юнитов и стоимость проектов победы остаются близкими к Standard. Более легкий расширенный профиль по просьбе игроков.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH" Language="ru_RU"><Text>Сбалансированное продление+ / Современность</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH_DESC" Language="ru_RU"><Text>Использует темп Сбалансированного продления+ для Античности и Исследования, затем заметно повышает пороги Современности и стоимость современных технологий/культур, чтобы последней эпохе хватало места.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT" Language="ru_RU"><Text>Eras+ ({1_Profile}): прогресс эпохи {2_Current} / {3_Max}</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_READOUT_PROFILE_ONLY" Language="ru_RU"><Text>Профиль темпа Eras+: {1_Profile}</Text></Replace>
+
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM" Language="zh_Hans_CN"><Text>自定义（分时代）</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM" Language="zh_Hant_HK"><Text>自訂（分時代）</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM" Language="ja_JP"><Text>カスタム（時代別）</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM" Language="ko_KR"><Text>사용자 지정(시대별)</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM" Language="de_DE"><Text>Benutzerdefiniert (pro Ära)</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM" Language="es_ES"><Text>Personalizado (por era)</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM" Language="fr_FR"><Text>Personnalisé (par ère)</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM" Language="it_IT"><Text>Personalizzato (per era)</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM" Language="pl_PL"><Text>Niestandardowy (na erę)</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM" Language="pt_BR"><Text>Personalizado (por era)</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM" Language="ru_RU"><Text>Свой (по эпохам)</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DESC" Language="zh_Hans_CN"><Text>使用下方的分时代选项独立设置每个时代的长度。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DESC" Language="zh_Hant_HK"><Text>使用下方的分時代選項獨立設定每個時代的長度。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DESC" Language="ja_JP"><Text>下の時代別オプションで各時代の長さを個別に設定します。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DESC" Language="ko_KR"><Text>아래 시대별 옵션으로 각 시대 길이를 개별 설정합니다.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DESC" Language="de_DE"><Text>Lege die Länge jeder Ära separat über die Optionen unten fest.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DESC" Language="es_ES"><Text>Define la duración de cada era por separado con las opciones de abajo.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DESC" Language="fr_FR"><Text>Définissez la durée de chaque ère séparément avec les options ci-dessous.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DESC" Language="it_IT"><Text>Imposta la durata di ogni era separatamente con le opzioni qui sotto.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DESC" Language="pl_PL"><Text>Ustaw długość każdej ery osobno za pomocą opcji poniżej.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DESC" Language="pt_BR"><Text>Defina a duração de cada era separadamente nas opções abaixo.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_PROFILE_CUSTOM_DESC" Language="ru_RU"><Text>Задайте длину каждой эпохи отдельно с помощью параметров ниже.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_NAME" Language="zh_Hans_CN"><Text>Eras+ 远古时代长度</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_NAME" Language="zh_Hant_HK"><Text>Eras+ 遠古時代長度</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_NAME" Language="ja_JP"><Text>Eras+ 古代の長さ</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_NAME" Language="ko_KR"><Text>Eras+ 고대 길이</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_NAME" Language="de_DE"><Text>Eras+ Länge der Antike</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_NAME" Language="es_ES"><Text>Eras+ Duración de la Antigüedad</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_NAME" Language="fr_FR"><Text>Eras+ Durée de l'Antiquité</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_NAME" Language="it_IT"><Text>Eras+ Durata dell'Antichità</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_NAME" Language="pl_PL"><Text>Eras+ Długość starożytności</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_NAME" Language="pt_BR"><Text>Eras+ Duração da Antiguidade</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_NAME" Language="ru_RU"><Text>Eras+ Длина Античности</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_DESC" Language="zh_Hans_CN"><Text>当 Eras+ 节奏设为自定义时的远古时代长度。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_DESC" Language="zh_Hant_HK"><Text>當 Eras+ 節奏設為自訂時的遠古時代長度。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_DESC" Language="ja_JP"><Text>Eras+ ペースがカスタムのときの古代の長さ。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_DESC" Language="ko_KR"><Text>Eras+ 페이스가 사용자 지정일 때 고대 길이입니다.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_DESC" Language="de_DE"><Text>Länge der Antike, wenn Eras+ Tempo auf Benutzerdefiniert steht.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_DESC" Language="es_ES"><Text>Duración de la Antigüedad cuando el ritmo de Eras+ es Personalizado.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_DESC" Language="fr_FR"><Text>Durée de l'Antiquité quand le rythme Eras+ est Personnalisé.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_DESC" Language="it_IT"><Text>Durata dell'Antichità quando il ritmo di Eras+ è Personalizzato.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_DESC" Language="pl_PL"><Text>Długość starożytności, gdy tempo Eras+ jest Niestandardowe.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_DESC" Language="pt_BR"><Text>Duração da Antiguidade quando o ritmo do Eras+ é Personalizado.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_ANTIQUITY_LENGTH_DESC" Language="ru_RU"><Text>Длина Античности, когда темп Eras+ задан как Свой.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_NAME" Language="zh_Hans_CN"><Text>Eras+ 探索时代长度</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_NAME" Language="zh_Hant_HK"><Text>Eras+ 探索時代長度</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_NAME" Language="ja_JP"><Text>Eras+ 探索の長さ</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_NAME" Language="ko_KR"><Text>Eras+ 탐험 길이</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_NAME" Language="de_DE"><Text>Eras+ Länge der Erkundung</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_NAME" Language="es_ES"><Text>Eras+ Duración de la Exploración</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_NAME" Language="fr_FR"><Text>Eras+ Durée de l'Exploration</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_NAME" Language="it_IT"><Text>Eras+ Durata dell'Esplorazione</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_NAME" Language="pl_PL"><Text>Eras+ Długość eksploracji</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_NAME" Language="pt_BR"><Text>Eras+ Duração da Exploração</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_NAME" Language="ru_RU"><Text>Eras+ Длина Освоения</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_DESC" Language="zh_Hans_CN"><Text>当 Eras+ 节奏设为自定义时的探索时代长度。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_DESC" Language="zh_Hant_HK"><Text>當 Eras+ 節奏設為自訂時的探索時代長度。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_DESC" Language="ja_JP"><Text>Eras+ ペースがカスタムのときの探索の長さ。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_DESC" Language="ko_KR"><Text>Eras+ 페이스가 사용자 지정일 때 탐험 길이입니다.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_DESC" Language="de_DE"><Text>Länge der Erkundung, wenn Eras+ Tempo auf Benutzerdefiniert steht.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_DESC" Language="es_ES"><Text>Duración de la Exploración cuando el ritmo de Eras+ es Personalizado.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_DESC" Language="fr_FR"><Text>Durée de l'Exploration quand le rythme Eras+ est Personnalisé.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_DESC" Language="it_IT"><Text>Durata dell'Esplorazione quando il ritmo di Eras+ è Personalizzato.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_DESC" Language="pl_PL"><Text>Długość eksploracji, gdy tempo Eras+ jest Niestandardowe.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_DESC" Language="pt_BR"><Text>Duração da Exploração quando o ritmo do Eras+ é Personalizado.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_EXPLORATION_LENGTH_DESC" Language="ru_RU"><Text>Длина Освоения, когда темп Eras+ задан как Свой.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_NAME" Language="zh_Hans_CN"><Text>Eras+ 现代时代长度</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_NAME" Language="zh_Hant_HK"><Text>Eras+ 現代時代長度</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_NAME" Language="ja_JP"><Text>Eras+ 近代の長さ</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_NAME" Language="ko_KR"><Text>Eras+ 현대 길이</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_NAME" Language="de_DE"><Text>Eras+ Länge der Moderne</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_NAME" Language="es_ES"><Text>Eras+ Duración de la Era Moderna</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_NAME" Language="fr_FR"><Text>Eras+ Durée de l'ère Moderne</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_NAME" Language="it_IT"><Text>Eras+ Durata dell'Era Moderna</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_NAME" Language="pl_PL"><Text>Eras+ Długość ery nowożytnej</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_NAME" Language="pt_BR"><Text>Eras+ Duração da Era Moderna</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_NAME" Language="ru_RU"><Text>Eras+ Длина Современности</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_DESC" Language="zh_Hans_CN"><Text>当 Eras+ 节奏设为自定义时的现代时代长度。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_DESC" Language="zh_Hant_HK"><Text>當 Eras+ 節奏設為自訂時的現代時代長度。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_DESC" Language="ja_JP"><Text>Eras+ ペースがカスタムのときの近代の長さ。</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_DESC" Language="ko_KR"><Text>Eras+ 페이스가 사용자 지정일 때 현대 길이입니다.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_DESC" Language="de_DE"><Text>Länge der Moderne, wenn Eras+ Tempo auf Benutzerdefiniert steht.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_DESC" Language="es_ES"><Text>Duración de la Era Moderna cuando el ritmo de Eras+ es Personalizado.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_DESC" Language="fr_FR"><Text>Durée de l'ère Moderne quand le rythme Eras+ est Personnalisé.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_DESC" Language="it_IT"><Text>Durata dell'Era Moderna quando il ritmo di Eras+ è Personalizzato.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_DESC" Language="pl_PL"><Text>Długość ery nowożytnej, gdy tempo Eras+ jest Niestandardowe.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_DESC" Language="pt_BR"><Text>Duração da Era Moderna quando o ritmo do Eras+ é Personalizado.</Text></Replace>
+    <Replace Tag="LOC_MOD_ERAS_PLUS_MODERN_LENGTH_DESC" Language="ru_RU"><Text>Длина Современности, когда темп Eras+ задан как Свой.</Text></Replace>
   </LocalizedText>
 </Database>

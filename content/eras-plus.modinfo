@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="eras-plus" version="1" xmlns="ModInfo">
+  <!-- Workshop release marker: 2026-06-04 QoL polish upload. -->
   <Properties>
     <Name>Eras+</Name>
-    <Description>Extended Age pacing for Civilization VII.</Description>
+    <Description>Adds Age pacing presets for Civ VII: Vanilla, Balanced Extended, Balanced Extended+, Balanced Extended+ / Modern Stretch, MP Pace, or Modern Stretch.</Description>
     <Authors>ErikVeland</Authors>
     <AffectsSavedGames>1</AffectsSavedGames>
     <ShowInBrowser>1</ShowInBrowser>
   </Properties>
 
   <Dependencies>
-    <Mod id="base-standard" title="Standard Rules" />
+    <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
   </Dependencies>
 
   <ActionCriteria>
@@ -25,6 +26,148 @@
     <Criteria id="modern-age-current">
       <AgeInUse>AGE_MODERN</AgeInUse>
     </Criteria>
+    <Criteria id="balanced-antiquity">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>ErasPlusPacingProfile</ConfigurationId>
+        <Value>ERAS_PLUS_PROFILE_BALANCED</Value>
+      </ConfigurationValueMatches>
+      <AgeInUse>AGE_ANTIQUITY</AgeInUse>
+    </Criteria>
+    <Criteria id="balanced-exploration">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>ErasPlusPacingProfile</ConfigurationId>
+        <Value>ERAS_PLUS_PROFILE_BALANCED</Value>
+      </ConfigurationValueMatches>
+      <AgeInUse>AGE_EXPLORATION</AgeInUse>
+    </Criteria>
+    <Criteria id="balanced-modern">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>ErasPlusPacingProfile</ConfigurationId>
+        <Value>ERAS_PLUS_PROFILE_BALANCED</Value>
+      </ConfigurationValueMatches>
+      <AgeInUse>AGE_MODERN</AgeInUse>
+    </Criteria>
+    <Criteria id="balanced-plus-antiquity">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>ErasPlusPacingProfile</ConfigurationId>
+        <Value>ERAS_PLUS_PROFILE_BALANCED_PLUS</Value>
+      </ConfigurationValueMatches>
+      <AgeInUse>AGE_ANTIQUITY</AgeInUse>
+    </Criteria>
+    <Criteria id="balanced-plus-exploration">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>ErasPlusPacingProfile</ConfigurationId>
+        <Value>ERAS_PLUS_PROFILE_BALANCED_PLUS</Value>
+      </ConfigurationValueMatches>
+      <AgeInUse>AGE_EXPLORATION</AgeInUse>
+    </Criteria>
+    <Criteria id="balanced-plus-modern">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>ErasPlusPacingProfile</ConfigurationId>
+        <Value>ERAS_PLUS_PROFILE_BALANCED_PLUS</Value>
+      </ConfigurationValueMatches>
+      <AgeInUse>AGE_MODERN</AgeInUse>
+    </Criteria>
+    <Criteria id="mp-antiquity">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>ErasPlusPacingProfile</ConfigurationId>
+        <Value>ERAS_PLUS_PROFILE_MP_PACE</Value>
+      </ConfigurationValueMatches>
+      <AgeInUse>AGE_ANTIQUITY</AgeInUse>
+    </Criteria>
+    <Criteria id="mp-exploration">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>ErasPlusPacingProfile</ConfigurationId>
+        <Value>ERAS_PLUS_PROFILE_MP_PACE</Value>
+      </ConfigurationValueMatches>
+      <AgeInUse>AGE_EXPLORATION</AgeInUse>
+    </Criteria>
+    <Criteria id="mp-modern">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>ErasPlusPacingProfile</ConfigurationId>
+        <Value>ERAS_PLUS_PROFILE_MP_PACE</Value>
+      </ConfigurationValueMatches>
+      <AgeInUse>AGE_MODERN</AgeInUse>
+    </Criteria>
+    <Criteria id="modern-stretch">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>ErasPlusPacingProfile</ConfigurationId>
+        <Value>ERAS_PLUS_PROFILE_MODERN_STRETCH</Value>
+      </ConfigurationValueMatches>
+      <AgeInUse>AGE_MODERN</AgeInUse>
+    </Criteria>
+    <Criteria id="bpms-antiquity">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>ErasPlusPacingProfile</ConfigurationId>
+        <Value>ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH</Value>
+      </ConfigurationValueMatches>
+      <AgeInUse>AGE_ANTIQUITY</AgeInUse>
+    </Criteria>
+    <Criteria id="bpms-exploration">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>ErasPlusPacingProfile</ConfigurationId>
+        <Value>ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH</Value>
+      </ConfigurationValueMatches>
+      <AgeInUse>AGE_EXPLORATION</AgeInUse>
+    </Criteria>
+    <Criteria id="bpms-modern">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>ErasPlusPacingProfile</ConfigurationId>
+        <Value>ERAS_PLUS_PROFILE_BALANCED_PLUS_MODERN_STRETCH</Value>
+      </ConfigurationValueMatches>
+      <AgeInUse>AGE_MODERN</AgeInUse>
+    </Criteria>
+
+    <!-- Custom per-age pacing: profile is Custom AND the age's length choice AND
+         the age in use. Each reuses the same per-age SQL the presets load. -->
+    <Criteria id="custom-antiquity-extended">
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusPacingProfile</ConfigurationId><Value>ERAS_PLUS_PROFILE_CUSTOM</Value></ConfigurationValueMatches>
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusAntiquityLength</ConfigurationId><Value>ERAS_PLUS_LENGTH_EXTENDED</Value></ConfigurationValueMatches>
+      <AgeInUse>AGE_ANTIQUITY</AgeInUse>
+    </Criteria>
+    <Criteria id="custom-antiquity-extended-plus">
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusPacingProfile</ConfigurationId><Value>ERAS_PLUS_PROFILE_CUSTOM</Value></ConfigurationValueMatches>
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusAntiquityLength</ConfigurationId><Value>ERAS_PLUS_LENGTH_EXTENDED_PLUS</Value></ConfigurationValueMatches>
+      <AgeInUse>AGE_ANTIQUITY</AgeInUse>
+    </Criteria>
+    <Criteria id="custom-exploration-extended">
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusPacingProfile</ConfigurationId><Value>ERAS_PLUS_PROFILE_CUSTOM</Value></ConfigurationValueMatches>
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusExplorationLength</ConfigurationId><Value>ERAS_PLUS_LENGTH_EXTENDED</Value></ConfigurationValueMatches>
+      <AgeInUse>AGE_EXPLORATION</AgeInUse>
+    </Criteria>
+    <Criteria id="custom-exploration-extended-plus">
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusPacingProfile</ConfigurationId><Value>ERAS_PLUS_PROFILE_CUSTOM</Value></ConfigurationValueMatches>
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusExplorationLength</ConfigurationId><Value>ERAS_PLUS_LENGTH_EXTENDED_PLUS</Value></ConfigurationValueMatches>
+      <AgeInUse>AGE_EXPLORATION</AgeInUse>
+    </Criteria>
+    <Criteria id="custom-modern-extended">
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusPacingProfile</ConfigurationId><Value>ERAS_PLUS_PROFILE_CUSTOM</Value></ConfigurationValueMatches>
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusModernLength</ConfigurationId><Value>ERAS_PLUS_LENGTH_EXTENDED</Value></ConfigurationValueMatches>
+      <AgeInUse>AGE_MODERN</AgeInUse>
+    </Criteria>
+    <Criteria id="custom-modern-extended-plus">
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusPacingProfile</ConfigurationId><Value>ERAS_PLUS_PROFILE_CUSTOM</Value></ConfigurationValueMatches>
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusModernLength</ConfigurationId><Value>ERAS_PLUS_LENGTH_EXTENDED_PLUS</Value></ConfigurationValueMatches>
+      <AgeInUse>AGE_MODERN</AgeInUse>
+    </Criteria>
+    <Criteria id="custom-modern-stretch">
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusPacingProfile</ConfigurationId><Value>ERAS_PLUS_PROFILE_CUSTOM</Value></ConfigurationValueMatches>
+      <ConfigurationValueMatches><Group>Game</Group><ConfigurationId>ErasPlusModernLength</ConfigurationId><Value>ERAS_PLUS_LENGTH_STRETCH</Value></ConfigurationValueMatches>
+      <AgeInUse>AGE_MODERN</AgeInUse>
+    </Criteria>
   </ActionCriteria>
 
   <ActionGroups>
@@ -33,6 +176,9 @@
         <LoadOrder>1000</LoadOrder>
       </Properties>
       <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-config.sql</Item>
+        </UpdateDatabase>
         <UpdateText>
           <Item>text/en_us/ErasPlusText.xml</Item>
           <Item>l10n/ErasPlusText.xml</Item>
@@ -45,6 +191,9 @@
         <LoadOrder>1000</LoadOrder>
       </Properties>
       <Actions>
+        <UIScripts>
+        	<Item>ui/eras-plus-readout.js</Item>
+        </UIScripts>
         <UpdateText>
           <Item>text/en_us/ErasPlusText.xml</Item>
           <Item>l10n/ErasPlusText.xml</Item>
@@ -52,9 +201,9 @@
       </Actions>
     </ActionGroup>
 
-    <ActionGroup id="eras-plus-antiquity" scope="game" criteria="antiquity-age-current">
+    <ActionGroup id="eras-plus-antiquity" scope="game" criteria="balanced-antiquity">
       <Properties>
-        <LoadOrder>1000</LoadOrder>
+        <LoadOrder>100000</LoadOrder>
       </Properties>
       <Actions>
         <UpdateDatabase>
@@ -63,9 +212,9 @@
       </Actions>
     </ActionGroup>
 
-    <ActionGroup id="eras-plus-exploration" scope="game" criteria="exploration-age-current">
+    <ActionGroup id="eras-plus-exploration" scope="game" criteria="balanced-exploration">
       <Properties>
-        <LoadOrder>1000</LoadOrder>
+        <LoadOrder>100000</LoadOrder>
       </Properties>
       <Actions>
         <UpdateDatabase>
@@ -74,15 +223,145 @@
       </Actions>
     </ActionGroup>
 
-    <ActionGroup id="eras-plus-modern" scope="game" criteria="modern-age-current">
+    <ActionGroup id="eras-plus-modern" scope="game" criteria="balanced-modern">
       <Properties>
-        <LoadOrder>1000</LoadOrder>
+        <LoadOrder>100000</LoadOrder>
       </Properties>
       <Actions>
         <UpdateDatabase>
           <Item>data/eras-plus-modern.sql</Item>
         </UpdateDatabase>
       </Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-balanced-plus-antiquity" scope="game" criteria="balanced-plus-antiquity">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-balanced-plus-antiquity.sql</Item>
+        </UpdateDatabase>
+      </Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-balanced-plus-exploration" scope="game" criteria="balanced-plus-exploration">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-balanced-plus-exploration.sql</Item>
+        </UpdateDatabase>
+      </Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-balanced-plus-modern" scope="game" criteria="balanced-plus-modern">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-balanced-plus-modern.sql</Item>
+        </UpdateDatabase>
+      </Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-mp-antiquity" scope="game" criteria="mp-antiquity">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-mp-antiquity.sql</Item>
+        </UpdateDatabase>
+      </Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-mp-exploration" scope="game" criteria="mp-exploration">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-mp-exploration.sql</Item>
+        </UpdateDatabase>
+      </Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-mp-modern" scope="game" criteria="mp-modern">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-mp-modern.sql</Item>
+        </UpdateDatabase>
+      </Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-modern-stretch" scope="game" criteria="modern-stretch">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-modern-stretch.sql</Item>
+        </UpdateDatabase>
+      </Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-bpms-antiquity" scope="game" criteria="bpms-antiquity">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-balanced-plus-antiquity.sql</Item>
+        </UpdateDatabase>
+      </Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-bpms-exploration" scope="game" criteria="bpms-exploration">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-balanced-plus-exploration.sql</Item>
+        </UpdateDatabase>
+      </Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-bpms-modern" scope="game" criteria="bpms-modern">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UpdateDatabase>
+          <Item>data/eras-plus-modern-stretch.sql</Item>
+        </UpdateDatabase>
+      </Actions>
+    </ActionGroup>
+
+    <!-- Custom per-age pacing groups: each reuses the matching preset's per-age SQL. -->
+    <ActionGroup id="eras-plus-custom-antiquity-extended" scope="game" criteria="custom-antiquity-extended">
+      <Properties><LoadOrder>100000</LoadOrder></Properties>
+      <Actions><UpdateDatabase><Item>data/eras-plus-antiquity.sql</Item></UpdateDatabase></Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-custom-antiquity-extended-plus" scope="game" criteria="custom-antiquity-extended-plus">
+      <Properties><LoadOrder>100000</LoadOrder></Properties>
+      <Actions><UpdateDatabase><Item>data/eras-plus-balanced-plus-antiquity.sql</Item></UpdateDatabase></Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-custom-exploration-extended" scope="game" criteria="custom-exploration-extended">
+      <Properties><LoadOrder>100000</LoadOrder></Properties>
+      <Actions><UpdateDatabase><Item>data/eras-plus-exploration.sql</Item></UpdateDatabase></Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-custom-exploration-extended-plus" scope="game" criteria="custom-exploration-extended-plus">
+      <Properties><LoadOrder>100000</LoadOrder></Properties>
+      <Actions><UpdateDatabase><Item>data/eras-plus-balanced-plus-exploration.sql</Item></UpdateDatabase></Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-custom-modern-extended" scope="game" criteria="custom-modern-extended">
+      <Properties><LoadOrder>100000</LoadOrder></Properties>
+      <Actions><UpdateDatabase><Item>data/eras-plus-modern.sql</Item></UpdateDatabase></Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-custom-modern-extended-plus" scope="game" criteria="custom-modern-extended-plus">
+      <Properties><LoadOrder>100000</LoadOrder></Properties>
+      <Actions><UpdateDatabase><Item>data/eras-plus-balanced-plus-modern.sql</Item></UpdateDatabase></Actions>
+    </ActionGroup>
+    <ActionGroup id="eras-plus-custom-modern-stretch" scope="game" criteria="custom-modern-stretch">
+      <Properties><LoadOrder>100000</LoadOrder></Properties>
+      <Actions><UpdateDatabase><Item>data/eras-plus-modern-stretch.sql</Item></UpdateDatabase></Actions>
     </ActionGroup>
   </ActionGroups>
 </Mod>

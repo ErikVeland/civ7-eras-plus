@@ -1,35 +1,35 @@
--- Eras+ extends Exploration while preserving standard-speed production.
+-- Balanced Extended: keeps Exploration longer, but avoids very late age progress in MP.
 
 UPDATE AgeProgressions
-SET MaxPoints_Abbreviated = 240,
-    MaxPoints_Standard = 300,
-    MaxPoints_Long = 360
+SET MaxPoints_Abbreviated = 205,
+    MaxPoints_Standard = 255,
+    MaxPoints_Long = 320
 WHERE AgeProgressionType = 'AGE_PROGRESSION_EXPLORATION_AGE_TIMER';
 
 UPDATE AgeProgressionEvents
 SET Points = CASE AgeProgressionEventType
-    WHEN 'AGE_PROGRESSION_PLAYER_MILESTONE_1' THEN 2
-    WHEN 'AGE_PROGRESSION_PLAYER_MILESTONE_2' THEN 4
-    WHEN 'AGE_PROGRESSION_PLAYER_MILESTONE_3' THEN 8
-    WHEN 'AGE_PROGRESSION_FUTURE_CIVIC' THEN 3
-    WHEN 'AGE_PROGRESSION_FUTURE_TECH' THEN 3
+    WHEN 'AGE_PROGRESSION_PLAYER_MILESTONE_1' THEN 3
+    WHEN 'AGE_PROGRESSION_PLAYER_MILESTONE_2' THEN 6
+    WHEN 'AGE_PROGRESSION_PLAYER_MILESTONE_3' THEN 10
+    WHEN 'AGE_PROGRESSION_FUTURE_CIVIC' THEN 6
+    WHEN 'AGE_PROGRESSION_FUTURE_TECH' THEN 6
     ELSE Points
   END
 WHERE AgeProgressionType = 'AGE_PROGRESSION_EXPLORATION_AGE_TIMER';
 
 UPDATE ProgressionTreeNodes
-SET Cost = ROUND(Cost * 2.10),
+SET Cost = ROUND(Cost * 2.05),
     RepeatableCostProgressionParam1 = CASE
-      WHEN RepeatableCostProgressionParam1 > 0 THEN ROUND(RepeatableCostProgressionParam1 * 2.10)
+      WHEN RepeatableCostProgressionParam1 > 0 THEN ROUND(RepeatableCostProgressionParam1 * 2.05)
       ELSE RepeatableCostProgressionParam1
     END
 WHERE ProgressionTree LIKE 'TREE_TECHS_EX%'
   AND Cost > 1;
 
 UPDATE ProgressionTreeNodes
-SET Cost = ROUND(Cost * 2.30),
+SET Cost = ROUND(Cost * 2.20),
     RepeatableCostProgressionParam1 = CASE
-      WHEN RepeatableCostProgressionParam1 > 0 THEN ROUND(RepeatableCostProgressionParam1 * 2.30)
+      WHEN RepeatableCostProgressionParam1 > 0 THEN ROUND(RepeatableCostProgressionParam1 * 2.20)
       ELSE RepeatableCostProgressionParam1
     END
 WHERE ProgressionTree LIKE 'TREE_CIVICS_EX%'
