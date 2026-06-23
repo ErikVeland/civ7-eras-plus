@@ -5,5 +5,5 @@
 	"contentfolder"		"/Users/veland/SteamWorkshopUploads/ErasPlus/content"
 	"visibility"		"0"
 	"title"		"Eras+"
-	"changenote"		"Clarity pass for pacing presets: the in-game age tooltip now shows exact preset effects, including Balanced Extended+ as 1.50x tech/civic costs with Standard-style production. Workshop description now includes quick numeric pacing notes."
+	"changenote"		"Production-readiness pass: refreshed release validation metadata and documented the custom per-age pacing playtest matrix. No gameplay-balance changes intended."
 }
